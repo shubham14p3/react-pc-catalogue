@@ -5,10 +5,9 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-This is a capstone project of React and Redux section in Microverse's Technical curriculum. Find it [here](https://www.notion.so/Catalogue-of-Statistics-72446e7fa33c403a9b6a0bc1de5c6cf5).
-The goal of the project is to build a simple calculator with basics of react.
+The project is based on a catalogue of recipes which is build on React and Redux.
 
-![Webp net-gifmaker]()
+![screenshot](./src/assets/images/screenshot.gif)
 
 ## Features
 - Browse various categories of dishes
@@ -23,10 +22,8 @@ The goal of the project is to build a simple calculator with basics of react.
 - SASS
 
 ## App Demo
-[Video Demo]()
 
 [Live Demo](https://food-wars.herokuapp.com/)
-
 
 ## Setup
 
@@ -76,6 +73,12 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgements
 - [Microverse](https://www.microverse.org/)
+
+## Future Enhancement
+
+- Using authentication to login
+- Creating users profile
+- Coverting the website to an Online Resturant Store
 
 ## 📝 License
 
