@@ -34,14 +34,14 @@ const Footer = () => (
             </a>
           </li>
           <li>
-            <a href="skype:deniz.lucaz" target="_blank" rel="noopener noreferrer">
+            <a href="skype:shubham14p3" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={['fab', 'skype']} />
             </a>
           </li>
         </ul>
       </div>
 
-      <p>FOOD WAR | All rights reserved</p>
+      <p>Shubham Raj | All rights reserved</p>
     </div>
   </section>
 );

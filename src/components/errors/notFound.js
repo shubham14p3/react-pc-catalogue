@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/notfound.scss';
-import notfoundImage from '../../404.png';
+import notfoundImage from '../../assets/images/404.png';
 
 const NotFound = () => (
   <div className="notfound-section">

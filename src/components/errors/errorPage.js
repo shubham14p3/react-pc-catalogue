@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import errorImage from '../../error.png';
+import errorImage from '../../assets/images/error.png';
 import '../../styles/errorPage.scss';
 
 const ErrorPage = ({ error }) => (
