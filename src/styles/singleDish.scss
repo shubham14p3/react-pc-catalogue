@@ -19,36 +19,6 @@
     }
   }
 
-  .dish-title {
-    max-width: 800px;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 45%;
-    left: 20%;
-
-    @include media-breakpoint-down(md) {
-      left: 0;
-    }
-
-    h3 {
-      width: 700px;
-      text-align: center;
-      text-transform: uppercase;
-      font-weight: 700;
-      letter-spacing: 2px;
-      line-height: 2.5rem;
-      color: $white;
-      font-family: $font-primary;
-      z-index: 1000;
-
-      @include media-breakpoint-down(md) {
-        width: 100%;
-        left: 10%;
-      }
-    }
-  }
-
   .dish-overlay {
     position: absolute;
     top: 0;
@@ -88,6 +58,37 @@
       padding-bottom: 30px;
     }
   }
+
+.dish-title {
+  max-width: 100vw;
+  display: flex;
+  justify-content: center; 
+ 
+  @include media-breakpoint-down(md) {
+    left: 0;
+  }
+
+  h3 {
+    width: 100vw;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 2.5rem;
+    color: $primary;
+    font-family: $font-primary;  
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+
+    @include media-breakpoint-down(md) {
+      width: 100%;
+      left: 10%;
+    }
+  }
+}
+
+
+
 }
 
 .dish-heading {
