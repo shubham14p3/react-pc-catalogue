@@ -5,7 +5,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-The project is based on a catalogue of recipes which is build on React and Redux.
+This is a single page restaurant website that was built to practice the use of Webpack together with loaders. The website elements are loaded dynamically by each of the created JS modules.
 
 ![screenshot](./src/assets/images/screenshot.gif)
 
