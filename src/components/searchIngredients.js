@@ -17,7 +17,6 @@ const SearchIngredients = props => {
     filterByIngredients(ingredient);
     history.push(`/search/${ingredient}`);
     setStateIngredient('');
-
   };
 
   const handleChange = e => {

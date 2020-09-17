@@ -27,11 +27,11 @@ const Dish = ({ dish }) => {
     <div className="dish-item">
       <div className="dish-image">
         <div data-testid="image" className="img" style={{ backgroundImage: `url(${strMealThumb})` }} />
-        
+
         <div className="dish-overlay" />
       </div>
       <div className="dish-info">
-      <div className="dish-title">
+        <div className="dish-title">
           <h3>{strMeal}</h3>
         </div>
         <p className="d-meta">
