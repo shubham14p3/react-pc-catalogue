@@ -28,6 +28,7 @@ This is a single page restaurant website that was built to practice the use of W
 ## Setup
 
 Use the [git](https://git-scm.com/downloads) to clone the project to your local machine.
+
 ```sh
 $ git clone https://github.com/shubham14p3/react-recipes-catalogue.git
 ```
