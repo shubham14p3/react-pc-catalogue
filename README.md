@@ -1,76 +1,98 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# REACT FOOD WAR
 
-# Projec t Name
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
-> One paragraph statement about the project.
+This is a single page restaurant website that was built to practice the use of Webpack together with loaders. The website elements are loaded dynamically by each of the created JS modules.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./src/assets/images/screenshot.gif)
 
-Additional description about the project and its features.
+## Features
+- Browse various categories of dishes
+- Search for your favorite dishes based on the type of recipes.
+- Get instructions on how to prepare your favorite recipe.
 
 ## Built With
+- React
+- ES6
+- Redux
+- Webpack
+- SASS
 
-- Major languages
-- Frameworks
-- Technologies used
+## App Demo
 
-## Live Demo
+[Live Demo](https://food-wars.herokuapp.com/)
 
-[Live Demo Link](https://livedemo.com)
+## Setup
 
+Use the [git](https://git-scm.com/downloads) to clone the project to your local machine.
 
-## Getting Started
+```sh
+$ git clone https://github.com/shubham14p3/react-recipes-catalogue.git
+```
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+Navigate to the extracted folder
+```sh 
+cd meal-catalogue
+```
 
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
+Install the dependencies and modules
+```sh
+$ npm install
+```
 
 ### Usage
+```sh
+$ npm start
+```
+This will open the app at port 3000. If it doesn't open, visit ```http://localhost:3000```
 
-### Run tests
+### Run Tests
+```sh
+$ npm test
+```
+## Author
 
-### Deployment
 
+👤 **Shubbham Raj**
 
+- Website: [Shubham Raj](https://www.shubhamraj.dev/)
+- Github: [@ShubhamRaj](https://github.com/shubham14p3)
+- Linkedin: [Shubham14p3](https://www.linkedin.com/in/shubham14p3/)
+- Email: shubham14p3@gmail.com
 
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
+Contributions, issues and feature requests are welcome!
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## Acknowledgements
+- [Microverse](https://www.microverse.org/)
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+## Future Enhancement
+
+- Using authentication to login
+- Creating users profile
+- Coverting the website to an Online Resturant Store
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is licensed under MIT license - see [LICENSE](/LICENSE) for more details.
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/shubham14p3/react-recipes-catalogue.svg?style=flat-square
+[contributors-url]: https://github.com/shubham14p3/react-recipes-catalogue/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/shubham14p3/react-recipes-catalogue.svg?style=flat-square
+[forks-url]: https://github.com/shubham14p3/react-recipes-catalogue/network/members
+[stars-shield]: https://img.shields.io/github/stars/shubham14p3/react-recipes-catalogue.svg?style=flat-square
+[stars-url]: https://github.com/shubham14p3/react-recipes-catalogue/stargazers
+[issues-shield]: https://img.shields.io/github/issues/shubham14p3/react-recipes-catalogue.svg?style=flat-square
+[issues-url]: https://github.com/shubham14p3/react-recipes-catalogue/issues
